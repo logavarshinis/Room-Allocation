@@ -8,10 +8,11 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
+    
 </head>
 
 <body>
-    <form>
+    <form action = "" class = "form">
     <div class="box-form">
         <div class="left">
             <div class="overlay">
@@ -20,7 +21,7 @@
             </p>
             <span>
                 <p>login with social media</p>
-                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i>acebook</a>
                 <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> Login with Twitter</a>
             </span>
             </div>
@@ -31,9 +32,9 @@
             <h5>Login</h5>
             <p>Don't have an account? <a href="#">Creat Your Account</a> it takes less than a minute</p>
             <div class="inputs">
-                <input type="text" id = "user" placeholder="user name">
+                <input type="text" id = "user" placeholder="user name" required>
                 <br>
-                <input type="password" id = "password" placeholder="password">
+                <input type="password" id = "password" placeholder="password" required>
             </div>
                 
                 <br><br>
@@ -48,24 +49,15 @@
             </div>
                 
                 <br>
-                <input type="submit" value="Login" class ="submit-btn" onclick="project()"/>
+                <!-- <input type="submit" value="Login" class ="submit-btn" onclick="project()" /> -->
+                <!-- <button>Login</button> -->
+                <button><a href="file:///C:/Users/logav/OneDrive/Documents/Hackthon/new.html">Login</a></button>
+                
+            </div>
+        
         </div>
-        </form>
-    </div>
-    <script>
-        function project(){
-            // var user = document.getElementById("user").value;
-            // var password = document.getElementById("password").value;
-            // if(user == "loga" && password=="loga@123"){
-             window.location.assign("home.html");
-                // alert("Login Successfully");
-            // }
-            // else{
-            //     alert("Invalid ");
-            //     return;
-            // }
-        }
-    </script>
+</form>
+    
     
 </body>
 
